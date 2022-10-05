@@ -4,13 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8dd1321ced.js" crossorigin="anonymous"></script>
     <title>A</title>
 </head>
 <style>
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .navbar {
+        display: inline-block;
+        width: 100%;
+        height: 70px;
+        background-color: #010D26;
+    }
+
+    .navbar div {
+        padding: 25px;
+    }
+
+    .navbar a {
+        margin: 0px 150px 0px 150px;
+    }
+
+    i {
+        color: #BFCFD9;
+    }
+
+    section {
+        width: 70%;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 30px;
+        background-color: #F0F1F2;
+        border: 1px solid #000;
+        border-radius: 5px;
+    }
+
     .card-item{
-        background-color: bisque;
-        border: 2px solid black;
-        border-radius: 10px;
+        background-color: #fff;
+        border: 1px solid #010D26;
+        border-radius: 5px;
         height: 250px;
         margin: 20px 0;
     }
@@ -31,31 +69,62 @@
     .img-right{
         float: right;
     }
+
     footer{
-        background-color: red;
-        color: aliceblue;
+        background-color: #010D26;
+        color: #BFCFD9;
         text-align: center;
-        padding: 50PX;
+        padding: 50px;
     }
     a{
-        color: aliceblue;
+        color: #BFCFD9;
     }
 </style>
 <body>
-    <div class="card-item">
-        <div>
-            <p>Pelota de Volley</p>
-            <p><span>$3000 </span><span>25% OFF</span></p>
-        </div>
-        <img src="img/img3.jpg" alt="imagen 3" class="card-item_img img-left">
-    </div>
-    <div class="card-item">
-        <img src="img/img4.jpg" alt="imagen 4" class="card-item_img img-right">
-        <div>
-            <p>Celular de Última Generación</p>
-            <p><span>$5000 </span><span>15% OFF</span></p>
-        </div>
-    </div>
+    <header>
+        <nav class="navbar">
+            <div>
+                <i class="fa-solid fa-meteor">MeteoroStore</i>
+                <a href="#">Tecnologia</a>
+                <a href="#">Jugueteria</a>
+                <a href="#">Deportes</a>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+                
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="card-item">
+                <div>
+                    <p>Pelota de Volley</p>
+                    <p><span>$3000 </span><span>25% OFF</span></p>
+                </div>
+                <img src="img/img3.jpg" alt="imagen 3" class="card-item_img img-left">
+            </div>
+            <div class="card-item">
+                <img src="img/img4.jpg" alt="imagen 4" class="card-item_img img-right">
+                <div>
+                    <p>Celular de Última Generación</p>
+                    <p><span>$5000 </span><span>15% OFF</span></p>
+                </div>
+            </div>
+            <div class="card-item">
+                <div>
+                    <p>Pelota de Volley</p>
+                    <p><span>$3000 </span><span>25% OFF</span></p>
+                </div>
+                <img src="img/img3.jpg" alt="imagen 3" class="card-item_img img-left">
+            </div>
+            <div class="card-item">
+                <img src="img/img4.jpg" alt="imagen 4" class="card-item_img img-right">
+                <div>
+                    <p>Celular de Última Generación</p>
+                    <p><span>$5000 </span><span>15% OFF</span></p>
+                </div>
+            </div>
+        </section>    
+    </main>
     <footer><span>Fecha:05/10/2022 </span><span> Esta página fue desarrollada por: <b><a href="https://github.com/agustin-antunez">Agustin Antunez</a> - <a href="https://github.com/camiloCanclini?tab=repositories">Camilo Canclini</a></b></span></footer>
 </body>
 </html>
